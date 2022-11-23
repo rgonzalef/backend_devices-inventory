@@ -1,0 +1,23 @@
+{
+  "name": "devices-inventory",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "start:dev": "nodemon ./bin/www",
+    "sync-env": "npx sync-dotenv"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "dotenv": "^16.0.3",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1"
+  },
+  "devDependencies": {
+    "husky": "^8.0.2",
+    "nodemon": "^2.0.20",
+    "sync-dotenv": "^2.7.0"
+  }
+}
