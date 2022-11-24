@@ -26,7 +26,7 @@ var server = http.createServer(app);
  */
 
  server.listen(port, () => {
-  console.log(`Server run on port http://localhost:${port}/api/v1 as ${process.env.ENVIRONMENT} mode`);
+  console.log(`Server run on port http://localhost:${port} as ${process.env.ENVIRONMENT} mode`);
 });
 
 server.on('error', onError);
