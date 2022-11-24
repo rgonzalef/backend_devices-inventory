@@ -5,7 +5,7 @@
   "scripts": {
     "start": "node ./bin/www",
     "start:dev": "nodemon ./bin/www",
-    "sync-env": "npx sync-dotenv"
+    "sync": "npx sync-dotenv"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
